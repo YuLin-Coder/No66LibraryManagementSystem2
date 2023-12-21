@@ -1,0 +1,187 @@
+/*head*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	position: absolute;
+	width: 100%;
+	height: 310px;
+	background-image: url(../img/head_bg.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+.head .img{
+	position: relative;
+	top: 10%;
+}
+.head .daohang{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #169fe6;
+	opacity: 0.85;
+}
+
+.head .daohang ul li{
+	float: left;
+	width: 150px;
+	height: 50px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #fff;
+}
+.head .daohang ul li a:hover{
+	background-color: #fff;
+	color: #169fe6;
+}
+.head .daohang ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.head .userName{
+	position: absolute;
+	z-index: 10;
+	top: 28%;
+	font-size: 30px;
+	color: #fff;
+	left: 6.8%;
+	width: 310px;
+	height: 110px;
+	text-align: center;
+	line-height: 110px;
+	font-weight: bold;
+	
+}
+
+.head .userName a{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.head .userName a:hover{
+	text-decoration:underline;
+}
+
+/*body 开始*/
+
+.body{
+	
+	clear: both;
+	overflow: hidden;
+	float: left;
+	top: 0;
+	width: 100%;
+	height: 1000px;
+    background-color: #F0EEF5;
+    position: relative;
+	z-index:-3;
+}
+
+.body .content{
+	width: 90%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	/* background-color: #169FE6; */
+	position: relative;
+	z-index:-1;
+}
+
+.body .content .left{
+	width: 23%;
+	height: 100%;
+	float: left;
+	/* background-color: red; */
+}
+.body .content .right{
+	width: 77%;
+	float: left;
+	height: 100%;
+	/* background-color: blue; */
+}
+
+.body .content .left .gongGao{
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+}
+.body .content .left .gongGao .title{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background-color: #169FE6;
+	color: #fff;
+	font-size: 20px;
+	line-height: 40px;
+}
+.body .content .left .gongGao .context{
+	width: 100%;
+	min-height: 150px;
+	background-color: #fff;
+	color: black;
+	font-size: 16px;
+	padding:10px;
+}
+
+.body .content .left .gongGao .import{
+	height: 150px;
+}
+
+.body .content .left .gongGao .context marquee label{
+	font-size:14px;
+	font-weight:normal;
+}
+
+.body .content .left .gongGao .context a{
+	display: block;
+	margin-top: 5px;
+}
+
+.daohang ul li .dropdown-menu li a{
+	color: #fff;
+	font-size: 14px;
+	margin-left: -10px;
+	width:100%;
+}
+
+.foot{
+	width:100%;
+	height:50px;
+	background-color:#169FE6;
+	float:left;
+}
+.foot .lable{
+	display: block;
+	width:100%;
+	height:100%;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	color: #fff;
+}
+
+.table thead tr th{
+	background-color:#169FE6;
+	color: #fff;
+}
+
+
