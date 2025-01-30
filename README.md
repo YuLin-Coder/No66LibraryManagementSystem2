@@ -1,20 +1,11 @@
 <p><h1 align="center">66.图书管理系统</h1></p>
 
-<p> 获取sql文件 QQ: 386869957 QQ群: 377586148 </p>
-<p> [推荐站点: 从戎源码网](https://armycodes.com/) </p>
-
-## 简介
-
-> 本代码来源于网络,仅供学习参考使用!
->
-> 提供1.远程部署/2.修改代码/3.设计文档指导/4.框架代码讲解等服务
-> 
-> 登录地址：http://localhost:8080/manage_books
-> 
-> 管理员：admin 1
-> 
-> 读者：user 1
->
+- <b>完整代码获取地址：从戎源码网 ([https://armycodes.com/](https://armycodes.com/))</b>
+- <b>技术探讨、资料分享，请加QQ群：692619798</b> 
+- <b>作者微信：19941326836  QQ：952045282</b> 
+- <b>承接计算机毕业设计、Java毕业设计、Python毕业设计、深度学习、机器学习</b>
+- <b>选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt 一条龙服务</b>
+- <b>所有选题地址 ([https://github.com/YuLin-Coder/AllProjectCatalog](https://github.com/YuLin-Coder/AllProjectCatalog)) </b>
 
 ## 项目介绍
 基于jsp+servlet的图书管理系统：前端jsp、jquery，后端 servlet、jdbc，集成图书管理、图书分类管理、图书借阅、图书归还、公告、读者等功能于一体的系统。
